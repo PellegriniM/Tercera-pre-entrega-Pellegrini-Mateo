@@ -17,3 +17,12 @@ def paleta(request):
     #paleta.save()
 
     return render(request, 'inicio/paletas.html', {'paleta': paleta})
+
+def tenistas(request):
+
+    return render(request, 'inicio/tenistas.html', {})
+
+def canchas(request):
+
+    return render(request, 'inicio/canchas.html', {})
+

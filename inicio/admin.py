@@ -1,3 +1,5 @@
 from django.contrib import admin
+from inicio.models import Paleta, Tenista, Cancha
 
-# Register your models here.
+
+admin.site.register([Paleta, Tenista, Cancha])
