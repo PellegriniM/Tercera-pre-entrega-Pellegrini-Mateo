@@ -7,3 +7,22 @@ TennisWorld - Tenistas
 {% block h1_header %}
 Tenistas
 {% endblock h1_header %}
+
+{% block main %}
+
+<form action="">
+    <input type="text" name="apellido" placeholder="Del Potro, Federer...">
+    <input type="submit" value="Buscar">
+</form>
+
+{% if listado_de_tenistas %}
+<ul>
+    {% for tenista in listado_de_tenistas %}
+    <li>{{tenista}}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No se encontraron tenistas.</p>
+{% endif %}
+
+{% endblock main %}

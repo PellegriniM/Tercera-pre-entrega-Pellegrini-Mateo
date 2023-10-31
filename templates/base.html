@@ -29,8 +29,11 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto"> 
                         <li class="nav-item"><a class="nav-link" href={% url "paletas" %}>Paletas</a></li>
+                        <li class="nav-item"><a class="nav-link" href={% url "crear_paleta" %}>Crear Paletas</a></li>
                         <li class="nav-item"><a class="nav-link" href={% url "tenistas" %}>Tenistas</a></li>
+                        <li class="nav-item"><a class="nav-link" href={% url "crear_tenista" %}>Crear Tenistas</a></li>
                         <li class="nav-item"><a class="nav-link" href={% url "canchas" %}>Canchas</a></li>
+                        <li class="nav-item"><a class="nav-link" href={% url "crear_cancha" %}>Crear Canchas</a></li>
                     </ul>
                 </div>
             </div>
@@ -44,7 +47,7 @@
                         Tennis
                         {% endblock h1_header %}
                     </h1>
-                    <h2 class="masthead-subheading mb-0">H2</h2>
+                    {% comment %} <h2 class="masthead-subheading mb-0">H2</h2> {% endcomment %}
                 </div>
             </div>
             <div class="bg-circle-1 bg-circle"></div>

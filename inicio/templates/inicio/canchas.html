@@ -7,3 +7,22 @@ TennisWorld - Canchas
 {% block h1_header %}
 Canchas
 {% endblock h1_header %}
+
+{% block main %}
+
+<form action="">
+    <input type="text" name="pais" placeholder="España, Australia...">
+    <input type="submit" value="Buscar">
+</form>
+
+{% if listado_de_canchas %}
+<ul>
+    {% for cancha in listado_de_canchas %}
+    <li>{{cancha}}</li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No se encontraron canchas.</p>
+{% endif %}
+
+{% endblock main %}

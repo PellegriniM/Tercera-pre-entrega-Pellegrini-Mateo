@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block title_head %}
+TennisWorld - Crear Canchas
+{% endblock title_head %}
+
+
+{% block h1_header %}
+Crear Canchas
+{% endblock h1_header %}
+
+
+{% block main %}
+
+<form action="" method="POST">
+    {% csrf_token %}
+    {{formulario}}
+    <input type="submit" value="Crear">
+</form>
+
+{% endblock main %}
