@@ -6,6 +6,7 @@ Nombre del proyecto: PreEntrega
 Nombre de la aplicacion: Inicio
 
 Pasos a ejecutar:
+
     1: python manage.py migrate
     2: python manage.py runserver
 
@@ -32,6 +33,7 @@ Modelos:
 Ejemplos para ingresar con cada modelo:
 
 Paleta:
+
     Marca: Wilson
     Descripcion: Paleta de Del Potro
     Año: 2000
@@ -41,6 +43,7 @@ Paleta:
     Año: 2000 
 
 Tenista:
+
     Nombre: Juan Martin
     Apellido: Del Potro
     Descripcion: Tenista Argentino
@@ -52,6 +55,7 @@ Tenista:
     Nacimiento: 1981
 
 Cancha:
+
     Nombre: Arena Rod Laver
     Pais: Australia
     Capacidad 15000
@@ -62,14 +66,17 @@ Cancha:
 
 
 Paginas de vistas:
+
     Paletas:
         Se busca por la marca
         Ejemplo:
             Wilson
+
     Tenistas:
         Se busca por el apellido
         Ejemplo:
             Del Potro
+            
     Canchas:
         Se busca por el pais
         Ejemplo:
