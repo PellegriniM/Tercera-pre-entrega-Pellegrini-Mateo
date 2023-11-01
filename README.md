@@ -11,12 +11,13 @@ Pasos a ejecutar:
 
 
 Modelos:
+
     Paleta:
         Marca: CharField
         Descripcion: TextField
         Año: IntegerField
     
-    Tenista
+    Tenista:
         Nombre: CharField
         Apellido: CharField
         Descripcion: TextField
